@@ -34,15 +34,6 @@ The dataset contains **single-cell transcriptomic profiles of human breast tissu
 |-----------|-------------|---------------|
 | GSM5022599 | Breast tissue | Healthy |
 | GSM5022603 | Breast tissue | Healthy |
-
-Experimental details:
-- Organism: Homo sapiens
-- Tissue: Breast
-- Library strategy: RNA-Seq
-- Library source: Transcriptomic
-- Library selection: cDNA
-- Sequencing platform: Illumina NovaSeq 6000
-
 ---
 
 ### BRCA2 Mutation Samples
@@ -51,14 +42,6 @@ Experimental details:
 |-----------|--------|-----------|----------|
 | GSM6998337 | Breast | Epithelial | BRCA2 |
 | GSM6998340 | Breast | Epithelial | BRCA2 |
-
-Experimental details:
-- Organism: Homo sapiens
-- Tissue: Breast
-- Library strategy: RNA-Seq
-- Library source: Transcriptomic single cell
-- Library selection: cDNA
-- Sequencing platform: Illumina NovaSeq 6000
 
 ---
 
@@ -69,16 +52,7 @@ Experimental details:
 | GSM6998341 | Breast | Epithelial | BRCA1 |
 | GSM6998343 | Breast | Epithelial | BRCA1 |
 
-Experimental details:
-- Organism: Homo sapiens
-- Tissue: Breast
-- Library strategy: RNA-Seq
-- Library source: Transcriptomic single cell
-- Library selection: cDNA
-- Sequencing platform: Illumina NovaSeq 6000
-
 ---
-
 
 ## Project Overview
 
@@ -492,6 +466,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
