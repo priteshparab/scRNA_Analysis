@@ -67,21 +67,6 @@ Navigate to the **Supplementary files** section and download the files:
 
 Place the downloaded `.h5` files inside the project directory before running the pipeline.
 
-Example structure:
-
-scRNA_Analysis
-│
-├── GSM5022599_Normal.h5
-├── GSM5022603_Normal.h5
-├── GSM6998337_BRCA2.h5
-├── GSM6998340_BRCA2.h5
-├── GSM6998341_BRCA1.h5
-├── GSM6998343_BRCA1.h5
-│
-├── scRNA_complete_pipeline.py
-├── analysis_interpretation.py
-└── requirements.txt
-
 ---
 
 ## Running the Analysis Pipeline
@@ -508,6 +493,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
