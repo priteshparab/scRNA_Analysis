@@ -62,7 +62,39 @@ Navigate to the **Supplementary files** section and download the files:
 
 - Download 2 healthy and 4 Disease samples using above given GEO accession.
 
+
+## Data Placement
+
+Place the downloaded `.h5` files inside the project directory before running the pipeline.
+
+Example structure:
+
+scRNA_Analysis
+│
+├── GSM5022599_Normal.h5
+├── GSM5022603_Normal.h5
+├── GSM6998337_BRCA2.h5
+├── GSM6998340_BRCA2.h5
+├── GSM6998341_BRCA1.h5
+├── GSM6998343_BRCA1.h5
+│
+├── scRNA_complete_pipeline.py
+├── analysis_interpretation.py
+└── requirements.txt
+
 ---
+
+## Running the Analysis Pipeline
+
+Run the main pipeline script:
+
+- python scRNA_complete_pipeline.py
+
+## Biological Interpretation Analysis
+
+After running the pipeline, execute the interpretation script:
+
+- python analysis_interpretation.py
 
 ## Project Overview
 
@@ -476,6 +508,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
