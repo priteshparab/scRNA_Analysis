@@ -4,13 +4,13 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/priteshparab/scRNA_Analysis.git
-cd scRNA_Analysis
+- git clone https://github.com/priteshparab/scRNA_Analysis.git
+- cd scRNA_Analysis
 
-*Create a Python environment (recommended):*
+Create a Python environment (recommended):
 
-conda create -n scrna_env python=3.10
-conda activate scrna_env
+- conda create -n scrna_env python=3.10
+- conda activate scrna_env
 
 # Install required dependencies:
 
@@ -466,6 +466,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
