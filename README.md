@@ -106,7 +106,7 @@ The analysis pipeline uses tools such as:
 
 ---
 
-# Folder Structure
+# Output Folder Structure *(after running both .py scripts)*
 
 The results are organized inside the `scRNA_results` directory.
 
@@ -493,6 +493,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
