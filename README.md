@@ -1,6 +1,6 @@
 # Single-Cell RNA-Seq Analysis of Breast Cancer Samples
 
-Installation
+**Installation**
 
 Clone the repository:
 
@@ -12,7 +12,7 @@ Create a Python environment (recommended):
 - conda create -n scrna_env python=3.10
 - conda activate scrna_env
 
-# Install required dependencies:
+Install required dependencies:
 
 pip install -r requirements.txt
 
@@ -466,6 +466,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
