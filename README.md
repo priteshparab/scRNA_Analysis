@@ -14,9 +14,9 @@ Create a Python environment (recommended):
 
 Install required dependencies:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-Dataset source:
+**Dataset source**
 
 GEO Series: **GSE164898**
 
@@ -51,6 +51,16 @@ The dataset contains **single-cell transcriptomic profiles of human breast tissu
 |------------|--------|------------|-------|
 | GSM6998341 | Breast | Epithelial | BRCA1 |
 | GSM6998343 | Breast | Epithelial | BRCA1 |
+
+## Downloading the Data
+
+Download the processed **10x Genomics `.h5` files** from the GEO page:
+
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164898
+
+Navigate to the **Supplementary files** section and download the files:
+
+- Download 2 healthy and 4 Disease samples using above given GEO accession.
 
 ---
 
@@ -466,6 +476,7 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
 
