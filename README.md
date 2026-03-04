@@ -16,6 +16,70 @@ conda activate scrna_env
 
 pip install -r requirements.txt
 
+Dataset source:
+
+GEO Series: **GSE164898**
+
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164898
+
+The dataset contains **single-cell transcriptomic profiles of human breast tissue samples**, including healthy controls and BRCA1/BRCA2 mutation carriers.
+
+---
+
+## Samples Used in This Study
+
+### Normal Breast Tissue
+
+| Sample ID | Description | Disease Status |
+|-----------|-------------|---------------|
+| GSM5022599 | Breast tissue | Healthy |
+| GSM5022603 | Breast tissue | Healthy |
+
+Experimental details:
+- Organism: Homo sapiens
+- Tissue: Breast
+- Library strategy: RNA-Seq
+- Library source: Transcriptomic
+- Library selection: cDNA
+- Sequencing platform: Illumina NovaSeq 6000
+
+---
+
+### BRCA2 Mutation Samples
+
+| Sample ID | Tissue | Cell Type | Genotype |
+|-----------|--------|-----------|----------|
+| GSM6998337 | Breast | Epithelial | BRCA2 |
+| GSM6998340 | Breast | Epithelial | BRCA2 |
+
+Experimental details:
+- Organism: Homo sapiens
+- Tissue: Breast
+- Library strategy: RNA-Seq
+- Library source: Transcriptomic single cell
+- Library selection: cDNA
+- Sequencing platform: Illumina NovaSeq 6000
+
+---
+
+### BRCA1 Mutation Samples
+
+| Sample ID | Tissue | Cell Type | Genotype |
+|------------|--------|------------|-------|
+| GSM6998341 | Breast | Epithelial | BRCA1 |
+| GSM6998343 | Breast | Epithelial | BRCA1 |
+
+Experimental details:
+- Organism: Homo sapiens
+- Tissue: Breast
+- Library strategy: RNA-Seq
+- Library source: Transcriptomic single cell
+- Library selection: cDNA
+- Sequencing platform: Illumina NovaSeq 6000
+
+---
+
+
 ## Project Overview
 
 This project performs **single-cell RNA sequencing (scRNA-seq) analysis** on breast cancer datasets containing:
@@ -428,5 +492,6 @@ The project generates several types of outputs:
 * Additional analyses (e.g., cell-cell communication or CNV inference) can further extend this study.
 
 ---
+
 
 
